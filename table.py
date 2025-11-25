@@ -10,5 +10,6 @@ for i in range(3):
     receipt.add_row([i+1, product , f"{price} руб." , f"{quantity}шт.", f"{price*quantity}руб." ])
 
 print(receipt)
-print(receipt)
+
+
 
