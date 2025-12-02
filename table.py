@@ -20,4 +20,5 @@ for i in range(3):
 print(receipt)
 #Сборка и вывод диаграммы
 diagram.bar(products, pay , color = "brown")
+diagram.title("Соотношение продуктов и цены")
 diagram.show()
